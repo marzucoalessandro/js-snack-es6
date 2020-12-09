@@ -161,19 +161,52 @@
 
 // j snack 8***********************
 
-  let domanda = prompt("dimmi un numero di 4 cifre");
+  // let domanda = prompt("dimmi un numero di 4 cifre");
+  //
+  // let somma = 0;
+  //
+  // const sommaNumeri = (numero) => {
+  //
+  //   for (var i = 0; i < numero.length; i++) {
+  //
+  //     var x = Number(numero[i]);
+  //
+  //     somma += x;
+  //   }
+  //   return somma;
+  // };
+  //
+  // console.log(sommaNumeri(domanda));
 
-  let somma = 0;
+  // fine esercizio 8*****************
 
-  const sommaNumeri = (numero) => {
+  // j snack 9*********************
 
-    for (var i = 0; i < numero.length; i++) {
+  // calcola la somma e la media dei primi 10 numeri;***************
 
-      var x = Number(numero[i]);
-
-      somma += x;
-    }
-    return somma;
-  };
-
-  console.log(sommaNumeri(domanda));
+  // let x = 1;
+  // let y = 10;
+  //
+  // // const sommaMedia = (num1, num2) => {
+  // //   let somma = 0;
+  // //
+  // //   for (var i = 0; i <= y; i++) {
+  // //     somma += i;
+  // //
+  // //   }return somma;
+  // //
+  // // };
+  // //
+  // // console.log(sommaMedia(x, y));
+  // // console.log(sommaMedia(x, y) / 10);
+  //
+  //
+  //
+  //
+  // const sommaMedia = (num1, num2) => {
+  //   let somma = (num1 + num2) * (num2 / 2);
+  //   let media = (somma / 10);
+  //   return somma;
+  // }
+  //
+  // console.log(sommaMedia(x, y));
