@@ -190,18 +190,18 @@
   // // const sommaMedia = (num1, num2) => {
   // //   let somma = 0;
   // //
-  // //   for (var i = 0; i <= y; i++) {
+  // //   for (var i = x; i <= y; i++) {
   // //     somma += i;
   // //
   // //   }return somma;
   // //
   // // };
-  // //
+  //
   // // console.log(sommaMedia(x, y));
-  // // console.log(sommaMedia(x, y) / 10);
+  // // console.log(sommaMedia(x, y) / y);
   //
   //
-  //
+  // ***campana di gauss********
   //
   // const sommaMedia = (num1, num2) => {
   //   let somma = (num1 + num2) * (num2 / 2);
@@ -210,3 +210,53 @@
   // }
   //
   // console.log(sommaMedia(x, y));
+
+
+  // ***********************fine jsnack 1**********************
+
+  // *********************jsnack 2*********************
+
+
+  // j snack 1***********
+
+  // inserisci un numero, se è pari stampa il numero, se è dispari stampa il numero successivo;
+
+
+  // let domanda = Number(prompt("inserisci un numero"));
+  //
+  // const stampa = (numero) => {
+  //   if (numero %2 == 0) {
+  //     return numero;
+  //   } else if (numero %2 !== 0) {
+  //     return numero + 1;
+  //   }
+  // };
+  //
+  // console.log(stampa(domanda));
+
+  //  fine esercizio 1**********
+
+  // esercizio 2***********
+
+  // let listaNomi = ["marco", "luca", "giorgio", "alfredo", "carlo"];
+  //
+  // let listaCognomi = ["lollo", "lillo", "lallo", "lello"];
+  //
+  // let nuovoArr = [];
+  //
+  // const listaCasuale = (arr1, arr2) => {
+  //
+  //
+  //   for (var i = 0; i <= arr1.length; i++) {
+  //     let a = Math.floor(Math.random() * listaNomi.length);
+  //     let b = Math.floor(Math.random() * listaCognomi.length);
+  //
+  //     nuovoArr.push(listaNomi[a] + " " + listaCognomi[b]);
+  //   } return nuovoArr;
+  // };
+  //
+  // console.log(listaCasuale(listaNomi, listaCognomi));
+
+  // fine esercizio 2**********
+
+  // esercizio 3***************
