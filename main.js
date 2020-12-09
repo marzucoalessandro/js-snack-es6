@@ -75,3 +75,27 @@
   // console.log(sommaNumeri());
 
   // fine esercizio 3*****************//////////
+
+  // jsnack 4**********************
+
+  //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+
+  let listaInvitati = ["marco", "nicola", "luigi", "claudio"];
+  console.log(listaInvitati);
+
+  let domanda = prompt("qual'è il tuo nome?");
+  console.log(domanda);
+
+  const invite = (array, domanda) => {
+    let check = false;
+    for (i = 0; i < array.length; i++) {
+
+        if (array[i] === domanda) {
+          check = true;
+          return "sei invitato";
+        }
+      } return "non sei invitato";
+    };
+  
+  console.log(invite(listaInvitati, domanda));
