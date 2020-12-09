@@ -145,13 +145,35 @@
     // stampa le potenze di 2 fino a 1000;
 
 
-    let numeri = [];
+    // let numeri = [];
+    //
+    // const potenze = (numero) => {
+    //   for (var i = 0; i < 1000; i++) {
+    //     if (numero ** i < 1000) {
+    //       numeri.push(numero ** i);
+    //     }
+    //   } return numeri;
+    // };
+    // console.log(potenze(2));
 
-    const potenze = (numero) => {
-      for (var i = 0; i < 1000; i++) {
-        if (numero ** i < 1000) {
-          numeri.push(numero ** i);
-        }
-      } return numeri;
-    };
-    console.log(potenze(2));
+
+// fine esercizio 7******************
+
+// j snack 8***********************
+
+  let domanda = prompt("dimmi un numero di 4 cifre");
+
+  let somma = 0;
+
+  const sommaNumeri = (numero) => {
+
+    for (var i = 0; i < numero.length; i++) {
+
+      var x = Number(numero[i]);
+
+      somma += x;
+    }
+    return somma;
+  };
+
+  console.log(sommaNumeri(domanda));
