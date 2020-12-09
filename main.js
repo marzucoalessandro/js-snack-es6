@@ -126,14 +126,32 @@
 
     //stampa il cubo dei primi N numeri, dove N è un numero dato dall'utente.
 
-    let numero = Number(prompt("scrivi un numero"));
-    let insieme = [];
+    // let numero = Number(prompt("scrivi un numero"));
+    // let insieme = [];
+    //
+    // const cubo = (arr) => {
+    //   for (var i = 1; i < numero; i++) {
+    //     let potenza = i ** 3;
+    //     arr.push(potenza);
+    //   } return arr;
+    // }
+    //
+    // console.log(cubo(insieme));
 
-    const cubo = (arr) => {
-      for (var i = 1; i < numero; i++) {
-        let potenza = i ** 3;
-        arr.push(potenza);
-      } return arr;
-    }
+    // fine esercizio 6*********************
 
-    console.log(cubo(insieme));
+    // j snack 7****************
+
+    // stampa le potenze di 2 fino a 1000;
+
+
+    let numeri = [];
+
+    const potenze = (numero) => {
+      for (var i = 0; i < 1000; i++) {
+        if (numero ** i < 1000) {
+          numeri.push(numero ** i);
+        }
+      } return numeri;
+    };
+    console.log(potenze(2));
