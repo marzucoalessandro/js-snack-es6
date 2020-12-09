@@ -107,15 +107,33 @@
   //crea un array vuoto. chiedi per 6 volte all'utente di inserire un numero.
   //se è dispari inseriscilo nell'array.
 
-    let lista = [];
+    // let lista = [];
+    //
+    // const dispari = () => {
+    //   for (let i = 0; i < 6; i++) {
+    //     let domanda = Number(prompt("scrivi un numero"));
+    //
+    //     if (domanda %2 !==0) {
+    //         lista.push(domanda);
+    //     }
+    //   } return lista;
+    // }
+    // console.log(dispari());
 
-    const dispari = () => {
-      for (let i = 0; i < 6; i++) {
-        let domanda = Number(prompt("scrivi un numero"));
+    // fine esercizio 5*****************
 
-        if (domanda %2 !==0) {
-            lista.push(domanda);
-        }
-      } return lista;
+    //j snack 6******************
+
+    //stampa il cubo dei primi N numeri, dove N è un numero dato dall'utente.
+
+    let numero = Number(prompt("scrivi un numero"));
+    let insieme = [];
+
+    const cubo = (arr) => {
+      for (var i = 1; i < numero; i++) {
+        let potenza = i ** 3;
+        arr.push(potenza);
+      } return arr;
     }
-    console.log(dispari());
+
+    console.log(cubo(insieme));
