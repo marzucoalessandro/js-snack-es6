@@ -81,21 +81,41 @@
   //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
 
-  let listaInvitati = ["marco", "nicola", "luigi", "claudio"];
-  console.log(listaInvitati);
+  // let listaInvitati = ["marco", "nicola", "luigi", "claudio"];
+  // console.log(listaInvitati);
+  //
+  // let domanda = prompt("qual'è il tuo nome?");
+  // console.log(domanda);
+  //
+  // const invite = (array, domanda) => {
+  //   let check = false;
+  //   for (i = 0; i < array.length; i++) {
+  //
+  //       if (array[i] === domanda) {
+  //         check = true;
+  //         return "sei invitato";
+  //       }
+  //     } return "non sei invitato";
+  //   };
+  //
+  // console.log(invite(listaInvitati, domanda));
 
-  let domanda = prompt("qual'è il tuo nome?");
-  console.log(domanda);
+  // fine esercizio 4***************
 
-  const invite = (array, domanda) => {
-    let check = false;
-    for (i = 0; i < array.length; i++) {
+  // jsnack 5************
 
-        if (array[i] === domanda) {
-          check = true;
-          return "sei invitato";
+  //crea un array vuoto. chiedi per 6 volte all'utente di inserire un numero.
+  //se è dispari inseriscilo nell'array.
+
+    let lista = [];
+
+    const dispari = () => {
+      for (let i = 0; i < 6; i++) {
+        let domanda = Number(prompt("scrivi un numero"));
+
+        if (domanda %2 !==0) {
+            lista.push(domanda);
         }
-      } return "non sei invitato";
-    };
-  
-  console.log(invite(listaInvitati, domanda));
+      } return lista;
+    }
+    console.log(dispari());
