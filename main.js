@@ -289,23 +289,49 @@
   // crea due array che hanno un numero diverso di elementi.aggiungi elementi casuali all'array che ha meno elementi,
    // fino a quando ne avrà tanti quanto l'altro.
 
-  let firstArray = [3, 5, 8, 76, 34, 45, 65, 32,77, 19];
+  // let firstArray = [3, 5, 8, 76, 34, 45, 65, 32,77, 19];
+  //
+  // let secondArray = [4, 7, 18];
+  //
+  // const addElements = (arr1, arr2) => {
+  //
+  //   let i = arr2.length;
+  //
+  //   while (i < arr1.length) {
+  //
+  //     let casualNumber = Math.floor(Math.random() * 100);
+  //
+  //     arr2.push(casualNumber);
+  //
+  //     i++
+  //   }; return arr2;
+  //
+  // };
+  //
+  // console.log(addElements(firstArray, secondArray));
 
-  let secondArray = [4, 7, 18];
+  // fine eserczio 4*********************
 
-  const addElements = (arr1, arr2) => {
+  // esercizio 5***********************
 
-    let i = arr2.length;
+  // scrivi una funzione per stabilire se un numero è primo.
+  // chiedi un numero all'utente e utilizza la funzione per comunicargli se il numero inserito è primo oppure no.
 
-    while (i < arr1.length) {
+  // let domanda = Number(prompt("dimmi un numero!"));
+  //
+  // const numeroPrimo = (num) => {
+  //
+  //   for (let i = 2; i < num; i++) {
+  //     if (num %i === 0) {
+  //       return false;
+  //     };
+  //   };return true;
+  // };
+  //
+  // if (numeroPrimo(domanda) === false) {
+  //   console.log("il tuo numero non è primo");
+  // } else {
+  //   console.log("il tuo numero è primo");
+  // };
 
-      let casualNumber = Math.floor(Math.random() * 100);
-
-      arr2.push(casualNumber);
-
-      i++
-    }; return arr2;
-
-  };
-
-  console.log(addElements(firstArray, secondArray));
+  // fine esercizio 5*********************
