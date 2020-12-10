@@ -260,3 +260,52 @@
   // fine esercizio 2**********
 
   // esercizio 3***************
+
+  //crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari.
+
+  // let listaNumeri = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  //
+  // const sommaNumeriDispari = (arr) => {
+  //
+  //   var somma = 0;
+  //
+  //   for (var i = 0; i < arr.length; i++) {
+  //
+  //     if (i %2 !== 0) {
+  //
+  //       somma += arr.length[i];
+  //     };
+  //
+  //   }; return somma;
+  //
+  // };
+  //
+  // console.log(sommaNumeriDispari(listaNumeri));
+
+  // fine esercizio 3********************
+
+  // esercizio 4**********************
+
+  // crea due array che hanno un numero diverso di elementi.aggiungi elementi casuali all'array che ha meno elementi,
+   // fino a quando ne avrà tanti quanto l'altro.
+
+  let firstArray = [3, 5, 8, 76, 34, 45, 65, 32,77, 19];
+
+  let secondArray = [4, 7, 18];
+
+  const addElements = (arr1, arr2) => {
+
+    let i = arr2.length;
+
+    while (i < arr1.length) {
+
+      let casualNumber = Math.floor(Math.random() * 100);
+
+      arr2.push(casualNumber);
+
+      i++
+    }; return arr2;
+
+  };
+
+  console.log(addElements(firstArray, secondArray));
